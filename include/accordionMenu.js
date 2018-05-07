@@ -41,7 +41,7 @@ function highlightAllMenuItems() {
 
 function initMenu() {
   $('#menu ul').hide();
-  $('#menu li a').click(
+  $('#menu li a').on('click',
     function() {
         $(this).next().slideToggle('normal');	
       }

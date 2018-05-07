@@ -869,7 +869,7 @@ var htmlEnDeCode = (function() {
     };
 })();
 
-$(window).load(function() {
+$(window).on('load', function() {
 	App.frame = $('#app-inline-xbrl-doc');
 	App.frame.on('load', function(event) {
 		// get an InlineDoc instance so we can query it
