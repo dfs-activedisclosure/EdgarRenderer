@@ -67,6 +67,7 @@
         <script type="text/javascript" src="/include/jquery-3.3.1.min.js"/>
         <script type="text/javascript" src="/include/accordionMenu.js"/>
         <script type="text/javascript" src="/include/Show.js"/>
+        <script type="text/javascript" src="/include/customize-dfs.js"/>
         <link rel="stylesheet" type="text/css" href="/include/interactive.css"/>
         <link rel="stylesheet" type="text/css" href="/include/report.css"/>
         <link rel="stylesheet" type="text/css" href="/include/print.css" media="print"/>
