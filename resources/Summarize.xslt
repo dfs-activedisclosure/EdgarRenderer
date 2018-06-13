@@ -64,13 +64,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta http-equiv="Cache-Control" content="no-cache"/>
         <title>View Filing Data</title>
-        <script type="text/javascript" src="/include/jquery-3.3.1.min.js"/>
-        <script type="text/javascript" src="/include/accordionMenu.js"/>
-        <script type="text/javascript" src="/include/Show.js"/>
-        <script type="text/javascript" src="/include/customize-dfs.js"/>
-        <link rel="stylesheet" type="text/css" href="/include/interactive.css"/>
-        <link rel="stylesheet" type="text/css" href="/include/report.css"/>
-        <link rel="stylesheet" type="text/css" href="/include/print.css" media="print"/>
+        <script type="text/javascript" src="https://ixviewer.blob.core.windows.net/ixviewer/include/jquery-3.3.1.min.js"/>
+        <script type="text/javascript" src="https://ixviewer.blob.core.windows.net/ixviewer/include/accordionMenu.js"/>
+        <script type="text/javascript" src="https://ixviewer.blob.core.windows.net/ixviewer/include/Show.js"/>
+        <script type="text/javascript" src="https://ixviewer.blob.core.windows.net/ixviewer/include/customize-dfs.js"/>
+        <link rel="stylesheet" type="text/css" href="https://ixviewer.blob.core.windows.net/ixviewer/include/interactive.css"/>
+        <link rel="stylesheet" type="text/css" href="https://ixviewer.blob.core.windows.net/ixviewer/include/report.css"/>
+        <link rel="stylesheet" type="text/css" href="https://ixviewer.blob.core.windows.net/ixviewer/include/print.css" media="print"/>
         <style type="text/css">
           #menu{
             font-family:Helvetica, Arial, sans-serif;
@@ -410,7 +410,7 @@
                 <xsl:text>javascript:loadReport(</xsl:text>
                 <xsl:value-of select="$nreports"/>
                 <xsl:text>)</xsl:text>
-              </xsl:attribute><img src="/include/reports.gif" border="0" height="12" width="9" alt="Reports"/>All Reports</a>
+              </xsl:attribute><img src="https://ixviewer.blob.core.windows.net/ixviewer/include/reports.gif" border="0" height="12" width="9" alt="Reports"/>All Reports</a>
           </li>
         </xsl:if>
         <xsl:if test="$nlogs > 0">
@@ -419,7 +419,7 @@
                 <xsl:text>javascript:loadReport(</xsl:text>
                 <xsl:value-of select="$nreports + $nlogs "/>
                 <xsl:text>)</xsl:text>
-              </xsl:attribute><img src="/include/reports.gif" border="0" height="12" width="9" alt="Logs"/>Rendering Log</a>
+              </xsl:attribute><img src="https://ixviewer.blob.core.windows.net/ixviewer/include/reports.gif" border="0" height="12" width="9" alt="Logs"/>Rendering Log</a>
           </li>
         </xsl:if>
       </xsl:when>
